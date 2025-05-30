@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: 	#FCEFAF;
+}
+.title{
+    text-align: center;
+    padding-top:60px;
+    font-size:35px;
+}
+/*1번째 맛집*/
+.section1{
+    position:relative;
+}
+
+.firstpic{
+    width:30%;
+    height:auto;
+    padding:90px 0 0 250px;/*left 250 top 100*/
+}
+
+.section1>a{
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:black;
+    float:right;
+    position:absolute;
+    top:300px;
+    right:315px;
+    font-size:30px;
+}
+
+.section1>ul>li:nth-child(1){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:black;
+    float:right;
+    position:absolute;
+    top:370px;
+    right:325px;
+}
+
+.section1>ul>li:nth-child(2){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:black;
+    float:right;
+    position:absolute;
+    top:400px;
+    right:65px;
+}
+
+/*2번째 맛집*/
+
+.section2{
+    position:relative;
+}
+
+.secondpic{
+    width:30%;
+    height:auto;
+    padding:90px 0 0 250px;/*left 250 top 100*/
+}
+
+.section2>a{
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:black;
+    float:right;
+    position:absolute;
+    top:300px;
+    right:300px;
+    font-size:30px;
+}
+
+.section2>ul>li:nth-child(1){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:black;
+    float:right;
+    position:absolute;
+    top:365px;
+    right:281px;
+}
+
+.section2>ul>li:nth-child(2){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:black;
+    float:right;
+    position:absolute;
+    top:395px;
+    right:203px;
+}

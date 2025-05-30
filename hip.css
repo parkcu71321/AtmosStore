@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: 							#4B0015;
+}
+.title{
+    color:	#FDF6F0;
+    text-align: center;
+    padding-top:60px;
+    font-size:35px;
+}
+
+/*1번째 맛집*/
+.section1{
+    position:relative;
+}
+
+.firstpic{
+    width:30%;
+    height:auto;
+    padding:90px 0 0 300px;/*left 250 top 100*/
+}
+
+.section1>a{
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:	#FDF6F0;
+    float:right;
+    position:absolute;
+    top:400px;
+    right:570px;
+    font-size:40px;
+}
+
+.section1>ul>li:nth-child(1){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:	#FDF6F0;
+    float:right;
+    position:absolute;
+    top:470px;
+    right:702px;
+    font-size:25px;
+}
+
+.section1>ul>li:nth-child(2){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:	#FDF6F0;
+    float:right;
+    position:absolute;
+    top:520px;
+    right:482px;
+    font-size:25px;
+}
+
+/*2번째 맛집*/
+.section1{
+    position:relative;
+}
+
+.secondpic{
+    width:30%;
+    height:auto;
+    padding:90px 0 0 300px;/*left 250 top 100*/
+}
+
+.section2>a{
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:	#FDF6F0;
+    float:right;
+    position:absolute;
+    top:1600px;
+    right:650px;
+    font-size:35px;
+}
+
+.section2>ul>li:nth-child(1){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:	#FDF6F0;
+    float:right;
+    position:absolute;
+    top:1670px;
+    right:570px;
+    font-size:25px;
+}
+
+.section2>ul>li:nth-child(2){
+    text-decoration: none;                  /*a태그 클릭 후 생기는 밑줄*/
+    color:	#FDF6F0;
+    float:right;
+    position:absolute;
+    top:1720px;
+    right:319px;
+    font-size:25px;
+}
